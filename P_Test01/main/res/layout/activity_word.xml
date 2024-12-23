@@ -1,0 +1,29 @@
+<!-- activity_word_management.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Word" />
+
+    <Button
+        android:id="@+id/buttonAddWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추가" />
+
+    <Button
+        android:id="@+id/buttonDelWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="삭제" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
