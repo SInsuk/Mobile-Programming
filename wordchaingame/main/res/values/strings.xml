@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">word chain game</string>
+    <string name="title_activity_member_item">member_item</string>
+</resources>
